@@ -17,3 +17,9 @@
 ## Stack usado
 * MongoDB
 * Nest
+
+# Production Build
+
+1. Crear el archivo ````env.prod````
+2. Llenar las variables de entorno de prod
+3. Crear la nueva imagen ```docker-compose -f docker-compose.prod.yaml up --build```
